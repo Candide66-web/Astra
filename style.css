@@ -1,0 +1,2252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 10%;
+}
+
+header{
+    margin-top: 46px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+header .button a{
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    background: #234960;
+    text-decoration: none;
+    padding: 12px 36px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header .navbar, .button{
+    padding-top: 22px;
+}
+
+header .menu{
+    display: none;
+}
+
+.mobile-menu{
+    margin-left: 0;
+}
+
+.one-section{
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one-section .text{
+    width: auto;
+}
+
+.one-section .text .text-gras{
+    width: 448px;
+    height: 162px;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: Poppins;
+    color: #234960;
+}
+
+.one-section .text .text-normal{
+    margin-top: 50px;
+    width: 342px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #242424;
+}
+
+.one-section .text .button{
+    margin-top: 90px;
+}
+
+.one-section .text .button a{
+    background-color: #6FDC8A;
+    padding: 12px 36px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+}
+
+.one-section .smartphone{
+    position: relative;
+    margin-left: 200px;
+}
+
+.one-section .smartphone .Phone img{
+    position: absolute;
+    width: 890px;
+    top: -95px;
+    left: -800px;
+}
+
+.two-section .title{
+    margin-top: 266px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #989898;
+}
+
+.two-section .text-gras{
+    width: 664px;
+    height: 108px;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: Poppins;
+    color: #234960;
+}
+
+.two-section .etape{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-section .etape div{
+    width: 330px;
+    height: 423px;
+    background-color: #F0FCF3;
+    border-radius: 15px;
+}
+
+.two-section .etape .xweigh{
+    margin-top: 159px;
+}
+
+.two-section .etape .xweigh h1{
+    padding: 5px 36px;
+    color: #C8C8C8;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: Inter;
+}
+
+.two-section .etape .xweigh img{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.two-section .etape .xweigh p{
+    font-size: 18px;
+    font-family: Poppins;
+    color: #242424;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.two-section .etape .xenergyapp{
+    margin-top: 48px;
+}
+
+.two-section .etape .xenergyapp h1{
+    padding: 5px 36px;
+    color: #C8C8C8;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: Inter;
+}
+
+.two-section .etape .xenergyapp img{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.two-section .etape .xenergyapp p{
+    font-size: 18px;
+    font-family: Poppins;
+    color: #242424;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.two-section .etape .consom{
+    margin-top: -50px;
+}
+
+.two-section .etape .consom h1{
+    padding: 5px 36px;
+    color: #C8C8C8;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: Inter;
+}
+
+.two-section .etape .consom img{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.two-section .etape .consom p{
+    font-size: 18px;
+    font-family: Poppins;
+    color: #242424;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.three-section{
+    margin-top: 102px;
+}
+
+.three-section h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #989898;
+}
+
+.three-section .fonction-p{
+    width: 776px;
+    height: 96px;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: Poppins;
+    color: #242424;
+}
+
+.three-section .fonction-gras{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Poppins;
+    color: #7BE495;
+}
+
+.three-section .one-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.three-section .one-flex .iphone{
+    width: 50%;
+    position: relative;
+    left: -145px;
+    top: -88px;
+}
+
+.three-section .one-flex .fonctions{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -50px;
+}
+
+.three-section .one-flex .fonctions .fonction1 .fonction{
+    margin: 0 10px;
+}
+
+.three-section .one-flex .fonctions .fonction1 .fonction{
+    width: 265px;
+    height: auto;
+}
+
+.three-section .one-flex .fonctions .fonction1 .fonction .title{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #242424;
+}
+
+.three-section .one-flex .fonctions .fonction1 .fonction .paragraphe{
+    color: #242424;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+.four-section {
+    position: absolute;
+    left: 0px;
+    top: 2509px;
+    right: 0;
+    background: #234960;
+}
+
+.four-section .haut{
+    width: 700px;
+    margin-top: 88px;
+    margin-left: 600px;
+}
+
+
+.four-section .haut .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #989898;
+}
+
+.four-section .haut .fonction-p{
+    margin-top: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.four-section .haut .fonction-p .fonction-gras{
+    color: #7BE495;
+}
+
+.four-section .fonctions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+    padding: 0 10%;
+    padding-bottom: 92px;
+}
+
+.four-section .fonctions .fonction1 .fonction{
+    margin: 0 10px;
+}
+
+.four-section .fonctions .fonction1 .fonction{
+    width: 265px;
+    height: auto;
+}
+
+.four-section .fonctions .fonction1 .fonction .title{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #FFFFFF;
+}
+
+.four-section .fonctions .fonction1 .fonction .paragraphe{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+.five-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.five-section .asset{
+    margin-top: 50px;
+}
+
+.five-section .asset p{
+    position: absolute;
+    top: 273px;
+    left: 99px;
+    font-weight: 600;
+    font-size: 48px;
+    width: 437px;
+    height: 144px;
+    color: #ADACAC;
+}
+
+.five-section .form{
+    padding-left: 70px;
+}
+
+.five-section .form .bouton{
+    margin-right: 228px;
+    background-color: #7BE495;
+    border-radius: 20px;
+    padding: 15px 2px;
+    width: auto;
+}
+
+.five-section .form .bouton a{
+    text-decoration: none;
+}
+
+.five-section .form .bouton a:first-child{
+    font-family: Poppins;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 12px 30.06px;
+    border-radius: 20px;
+}
+
+.five-section .form .bouton a:nth-child(2){
+    font-family: Poppins;
+    color: #FFFFFF;
+    background-color: #7BE495;
+    padding: 12px 69.56px;
+    border-radius: 20px;
+}
+
+/*.five-section .form .formulaire form{
+    border: 2px dashed red;
+}*/
+
+.five-section .form .formulaire form .nom{
+    margin-top: 59px;
+}
+
+.five-section .form .formulaire form div label{
+    font-family: Poppins;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 18px;
+    color:#242424;
+}
+
+.five-section .form .formulaire form div input{
+    background-color: #d4d2d8b0;
+    width: 430px;
+    height: 50px;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.five-section .form .formulaire .acces{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Poppins;
+    color: #5B5B5B;
+    width: 437px;
+    height: 81px;
+}
+
+.five-section .form .formulaire .acces .fcfa{
+    font-weight: 600;
+}
+
+.five-section .form .formulaire form .submit{
+    background-color: #6FDC8A;
+    border-radius: 20px;
+    border: transparent;
+    color: black;
+    padding: 12px 36px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-top: 66px;
+}
+
+.six-section{
+    margin-top: 1050px;
+    background-color: #F0FCF3;
+    position: absolute;
+    padding: 0 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.six-section .nous{
+    margin-top: 100px;
+}
+
+.six-section .nous .title{
+    color: #989898;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.six-section .nous .para-gras{
+    margin-top: 8px;
+    width: 566px;
+    height: 108px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #234960;
+    font-family: Poppins;
+}
+
+.six-section .nous .simple{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #242424;
+    width: 467px;
+    height: 135px;
+    font-family: Poppins;
+}
+
+.six-section .nous .simple .gras-noire{
+    font-weight: 600;
+}
+
+.six-section .nous .simple .simple-noire{
+    color: #7BE495;
+}
+
+.six-section .image{
+    margin-top: 93.43px;
+}
+
+.six-section .image .equipe{
+    position: absolute;
+    right: 120px;
+    bottom: 30px;
+}
+
+.seven-section{
+    margin-top: 1580px;
+    height: 50vh;
+    text-align: center;
+}
+
+.seven-section div p{
+    color: #ADACAC;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 50vh;
+}
+
+footer{
+    position: absolute;
+    padding: 0 20%;
+    left: 0;
+    right: 0;
+    top: 5648px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A3444;
+}
+
+footer .xenergy{
+    margin-top: 100px;
+}
+
+footer .xenergy .img{
+    width: 208px;
+    height: 66px;
+}
+
+footer .xenergy .solutions{
+    font-weight: 400;
+    font-size: 16px;
+    width: 264px;
+    height: 48px;
+    font-family: Poppins;
+    color: #C8C8C8;
+    margin-top: 14px;
+}
+
+footer .xenergy .social a{
+    margin-top: 34px;
+    color: white;
+}
+
+.footer .xenergy .social a:hover{
+    color: red;
+    translate: 1s ease-in;
+    transform: translateY(-10px);
+}
+
+footer .xenergy .social a:nth-child(1){
+    width: 11.5px;
+    height: 24px;
+    margin-right: 19.58px;
+}
+
+footer .xenergy .social a:nth-child(2){
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+footer .xenergy .social a:nth-child(3){
+    width: 29.14px;
+    height: 24px;
+}
+
+footer .liens{
+    font-family: Poppins;
+    margin-bottom: 162px;
+    margin-top: 98px;
+    min-width: 190px;
+}
+
+footer .liens .title{
+    color: #FFFFFF;
+    width: 63px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: -50px;
+}
+
+footer .liens .pre-etoile{
+    margin-top: 40px;
+}
+
+footer .liens .pre-etoile a{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    width: 137px;
+    height: 24px;
+    text-decoration: none;
+}
+
+footer .liens .pre-etoile img{
+    margin-top: 41.34px;
+    margin-left: 17.25px;
+}
+
+footer .liens .link a{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 12px;
+    text-decoration: none;
+    height: 24px;
+}
+
+footer .apropos{
+    min-width: 190px;
+}
+
+footer .apropos .title{
+    width: 110px;
+    height: 36px;
+    margin-top: 98px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+footer .apropos a{
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C8C8C8;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+.mobile-menu{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+/*@media only screen and (min-width: 1100px){
+    header{
+        position: fixed;
+        top: -60px;
+        left: 0;
+        right: 0;
+        background-color: rgb(177, 172, 172);
+        z-index: 1000;
+        padding: 0 2%;
+    }
+
+    .one-section{
+        margin-top: 200px;
+    }
+}*/
+
+@media only screen and (max-width: 1150px){
+    
+    .one-section .smartphone{
+        display: none;
+    }
+
+    .three-section{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1310px){
+    body{
+        padding: 0 100px;
+        /*border: 2px solid red;*/
+        width: 100%;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header .navbar a{
+        display: block;
+        margin: 5px 0;
+    }
+
+    .one-section{
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .one-section .text{
+        width: 500px;
+    }
+    
+    .one-section .smartphone{
+        margin-left: 400px;
+        margin-left: 50px;
+    }
+
+    .three-section .one-flex .fonctions{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .three-section .one-flex .fonctions:nth-child(2){
+        margin-right: auto;
+    }
+
+    .three-section .one-flex .fonctions .fonction1{
+        width: 250px;
+        margin: 0 5px;
+    }
+
+    .four-section {
+        position: absolute;
+        left: 0px;
+        top: 3109px;
+        right: 0;
+        background: #234960;
+    }
+    
+    .four-section .haut{
+        width: 700px;
+        margin-top: 88px;
+        margin-left: 10px;
+    }
+
+    .five-section{
+        position: relative;
+        top: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .five-section .asset{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    .five-section .asset p{
+        position: absolute;
+        top: 273px;
+        left: 99px;
+        font-weight: 600;
+        font-size: 48px;
+        width: 437px;
+        height: 144px;
+        color: #ADACAC;
+    }
+    
+    .five-section .form{
+        padding-left: 70px;
+    }
+    
+    .five-section .form .bouton{
+        margin-right: 228px;
+        background-color: #7BE495;
+        border-radius: 20px;
+        padding: 15px 2px;
+        width: auto;
+    }
+    
+    .five-section .form .bouton a{
+        text-decoration: none;
+    }
+    
+    .five-section .form .bouton a:first-child{
+        font-family: Poppins;
+        color: black;
+        background-color: #FFFFFF;
+        padding: 12px 30.06px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .bouton a:nth-child(2){
+        font-family: Poppins;
+        color: #FFFFFF;
+        background-color: #7BE495;
+        padding: 12px 69.56px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .formulaire form .nom{
+        margin-top: 59px;
+    }
+    
+    .five-section .form .formulaire form div label{
+        font-family: Poppins;
+        font-weight: 700;
+        margin-top: 15px;
+        font-size: 18px;
+        color:#242424;
+    }
+    
+    .five-section .form .formulaire form div input{
+        background-color: #d4d2d8b0;
+        width: 430px;
+        height: 50px;
+        border-radius: 20px;
+        border: transparent;
+    }
+    
+    .five-section .form .formulaire .acces{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: italic;
+        font-family: Poppins;
+        color: #5B5B5B;
+        width: 437px;
+        height: 81px;
+    }
+    
+    .five-section .form .formulaire .acces .fcfa{
+        font-weight: 600;
+    }
+    
+    .five-section .form .formulaire form .submit{
+        background-color: #6FDC8A;
+        border-radius: 20px;
+        border: transparent;
+        color: black;
+        padding: 12px 36px;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: Poppins;
+        margin-top: 66px;
+    }
+
+    .six-section{
+        margin-top: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .six-section .nous .para-gras{
+        margin-top: 8px;
+        width: auto;
+        height: 108px;
+    }
+    
+    .six-section .nous .simple{
+        margin-top: -60px;
+        width: auto;
+    }
+
+    .six-section .image{
+        margin-top: -53.43px;
+    }
+    
+    .six-section .image .equipe{
+        position: relative;
+        left: 20px;
+        bottom: 400px;
+    }
+
+    .seven-section{
+        margin-top: 1280px;
+        height: 10vh;
+        text-align: center;
+    }
+
+
+    footer{
+        position: absolute;
+        padding: 0 20%;
+        left: 0;
+        right: 0;
+        top: 7048px;
+        display: flex;
+    }
+
+}
+
+
+@media only screen and (max-width: 1310px){
+    header .navbar{
+        position: absolute;
+        top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 80%;
+        height: 120px;
+        transition: all 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
+        z-index: 1;
+    }
+
+    .one-section{
+        padding-top: 30px;
+    }
+
+    header .button{
+        display: none;
+    }
+
+    header .menu{
+        display: block;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu{
+        margin-left: -180%;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width:900px) and (max-width: 1150px){
+
+    body{
+        padding: 0 90px;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .one-section{
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .one-section .text{
+        width: auto;
+    }
+
+    .one-section .text .text-gras{
+        width: 608px;
+        height: auto;
+        font-weight: 700;
+        font-size: 36px;
+        font-family: Poppins;
+        color: #234960;
+    }
+    
+    .one-section .text .text-normal{
+        margin-top: 50px;
+        width: 642px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .one-section .text .button{
+        margin-top: 30px;
+    }
+    
+    .one-section .smartphone{
+        display: none;
+    }
+
+    .two-section{
+        margin-top: -150px;
+    }
+
+    .two-section .etape div{
+        width: 275px;
+        padding: 0 10px;
+    }
+
+    /*.three-section{
+        display: none;
+    }*/
+
+    .three-section .one-flex .fonctions:nth-child(2){
+        margin-right: auto;
+    }
+
+    .three-section .one-flex .fonctions .fonction1{
+        width: 250px;
+        margin: 0 5px;
+    }
+
+    .four-section {
+        position: absolute;
+        left: 0px;
+        top: auto;
+        right: 0;
+        background: #234960;
+    }
+    
+    .four-section .haut{
+        width: 700px;
+        margin-top: 88px;
+        margin-left: 10px;
+    }
+
+    .five-section{
+        position: relative;
+        top: 800px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .five-section .asset{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    .five-section .asset p{
+        position: absolute;
+        top: 273px;
+        left: 99px;
+        font-weight: 600;
+        font-size: 48px;
+        width: 437px;
+        height: 144px;
+        color: #ADACAC;
+    }
+    
+    .five-section .form{
+        padding-left: 70px;
+    }
+    
+    .five-section .form .bouton{
+        margin-right: 228px;
+        background-color: #7BE495;
+        border-radius: 20px;
+        padding: 15px 2px;
+        width: auto;
+    }
+    
+    .five-section .form .bouton a{
+        text-decoration: none;
+    }
+    
+    .five-section .form .bouton a:first-child{
+        font-family: Poppins;
+        color: black;
+        background-color: #FFFFFF;
+        padding: 12px 30.06px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .bouton a:nth-child(2){
+        font-family: Poppins;
+        color: #FFFFFF;
+        background-color: #7BE495;
+        padding: 12px 69.56px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .formulaire form .nom{
+        margin-top: 59px;
+    }
+    
+    .five-section .form .formulaire form div label{
+        font-family: Poppins;
+        font-weight: 700;
+        margin-top: 15px;
+        font-size: 18px;
+        color:#242424;
+    }
+    
+    .five-section .form .formulaire form div input{
+        background-color: #d4d2d8b0;
+        width: 430px;
+        height: 50px;
+        border-radius: 20px;
+        border: transparent;
+    }
+    
+    .five-section .form .formulaire .acces{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: italic;
+        font-family: Poppins;
+        color: #5B5B5B;
+        width: 437px;
+        height: 81px;
+    }
+    
+    .five-section .form .formulaire .acces .fcfa{
+        font-weight: 600;
+    }
+    
+    .five-section .form .formulaire form .submit{
+        background-color: #6FDC8A;
+        border-radius: 20px;
+        border: transparent;
+        color: black;
+        padding: 12px 36px;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: Poppins;
+        margin-top: 66px;
+    }
+
+    .six-section{
+        margin-top: 850px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .six-section .nous .para-gras{
+        margin-top: 8px;
+        width: auto;
+        height: 108px;
+    }
+    
+    .six-section .nous .simple{
+        margin-top: -60px;
+        width: auto;
+    }
+
+    .six-section .image{
+        margin-top: -13.43px;
+        margin-bottom: 0;
+    }
+    
+    .six-section .image .equipe{
+        position: relative;
+        left: 20px;
+        bottom: 400px;
+    }
+
+    .seven-section{
+        /*border: 1px solid crimson;
+        margin-top: 1980px;*/
+        display: none;
+    }
+
+
+    footer{
+        position: absolute;
+        padding: 0 10%;
+        left: 0;
+        right: 0;
+        top: 5048px;
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:750px) and (max-width: 900px){
+
+    body{
+        padding: 0 30px;
+    }
+
+    .one-section{
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .one-section .text .text-gras{
+        width: auto;
+        height: auto;
+        /*border: 1px solid coral;*/
+    }
+    
+    .one-section .text .text-normal{
+        margin-top: auto;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .one-section .text .button{
+        margin-top: auto;
+    }
+
+    .two-section{
+        margin-top: -150px;
+    }
+
+    .two-section .etape{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .two-section .etape div{
+        width: 275px;
+        padding: 0 10px;
+    }
+
+    .two-section .etape div:nth-child(1){
+        margin-top: 0;
+    }
+
+    .two-section .etape div:nth-child(3){
+        margin-top: 50px;
+    }
+
+    /*.three-section{
+        display: none;
+    }*/
+
+    .three-section .one-flex .fonctions:nth-child(2){
+        margin-right: auto;
+    }
+
+    .three-section .one-flex .fonctions .fonction1{
+        width: 250px;
+        margin: 0 5px;
+    }
+
+    .four-section {
+        position: absolute;
+        left: 0px;
+        top: auto;
+        right: 0;
+        background: #234960;
+        margin-top: 20px;
+    }
+    
+    .four-section .haut{
+        width: auto;
+        margin-top: 88px;
+        margin-left: 10px;
+    }
+
+    .five-section{
+        position: relative;
+        top: 590px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .five-section .asset{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .five-section .asset img{
+        width: 500px;
+    }
+
+    
+    
+    .five-section .asset p{
+        position: absolute;
+        top: 273px;
+        left: 99px;
+        font-weight: 600;
+        font-size: 48px;
+        width: 437px;
+        height: 144px;
+        color: #ADACAC;
+    }
+    
+    .five-section .form{
+        padding-left: 70px;
+    }
+    
+    .five-section .form .bouton{
+        text-align: center;
+    }
+    
+    .five-section .form .bouton a{
+        text-decoration: none;
+    }
+    
+    .five-section .form .bouton a:first-child{
+        font-family: Poppins;
+        color: black;
+        background-color: #FFFFFF;
+        padding: 12px 30.06px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .bouton a:nth-child(2){
+        display: none;
+    }
+    
+    .five-section .form .formulaire form .nom{
+        margin-top: 59px;
+    }
+    
+    .five-section .form .formulaire form div label{
+        font-family: Poppins;
+        font-weight: 700;
+        margin-top: 15px;
+        font-size: 18px;
+        color:#242424;
+    }
+    
+    .five-section .form .formulaire form div input{
+        background-color: #d4d2d8b0;
+        width: 430px;
+        height: 50px;
+        border-radius: 20px;
+        border: transparent;
+    }
+    
+    .five-section .form .formulaire .acces{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: italic;
+        font-family: Poppins;
+        color: #5B5B5B;
+        width: 337px;
+        height: 81px;
+    }
+    
+    .five-section .form .formulaire .acces .fcfa{
+        font-weight: 600;
+    }
+    
+    .five-section .form .formulaire form .submit{
+        background-color: #6FDC8A;
+        border-radius: 20px;
+        border: transparent;
+        color: black;
+        padding: 12px 36px;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: Poppins;
+        margin-top: 66px;
+    }
+
+    .six-section{
+        margin-top: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /*border: 1px solid saddlebrown;*/
+    }
+
+    .six-section .nous .para-gras{
+        margin-top: 8px;
+        width: auto;
+        height: auto;
+    }
+    
+    .six-section .nous .simple{
+        margin-top: auto;
+        width: auto;
+    }
+
+    .six-section .image{
+        /*border: 1px solid darkred;*/
+        margin-top: -13.43px;
+        margin-bottom: 0;
+        height: 450px;
+    }
+    
+    .six-section .image .equipe{
+        position: relative;
+        left: 20px;
+        bottom: 400px;
+    }
+
+    .seven-section{
+        /*border: 1px solid crimson;
+        margin-top: 1980px;*/
+        display: none;
+    }
+
+
+    footer{
+        position: absolute;
+        padding: 0 10%;
+        left: 0;
+        right: 0;
+        top: 5400px;
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:650px) and (max-width: 750px){
+
+    body{
+        padding: 0 20px;
+    }
+
+    .one-section{
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .one-section .text .text-gras{
+        width: auto;
+        height: auto;
+        /*border: 1px solid coral;*/
+    }
+    
+    .one-section .text .text-normal{
+        margin-top: auto;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .one-section .text .button{
+        margin-top: auto;
+    }
+
+    .two-section{
+        margin-top: -150px;
+    }
+
+    .two-section .text-gras{
+        width: auto;
+        height: auto;
+    }
+
+    .two-section .etape{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .two-section .etape div{
+        width: 275px;
+        padding: 0 10px;
+    }
+
+    .two-section .etape div:nth-child(1){
+        margin-top: 0;
+    }
+
+    .two-section .etape div:nth-child(3){
+        margin-top: 50px;
+    }
+
+    /*.three-section{
+        display: none;
+    }*/
+
+    .three-section .one-flex .fonctions:nth-child(2){
+        margin-right: auto;
+    }
+
+    .three-section .one-flex .fonctions .fonction1{
+        width: 250px;
+        margin: 0 5px;
+    }
+
+    .four-section {
+        position: absolute;
+        left: 0px;
+        top: auto;
+        right: 0;
+        background: #234960;
+        margin-top: 20px;
+    }
+    
+    .four-section .haut{
+        width: auto;
+        margin-top: 88px;
+        margin-left: 10px;
+    }
+
+    .four-section .fonctions{
+        width: auto;
+        padding: 0 5%;
+        padding-bottom: 92px;
+    }
+
+    .five-section{
+        position: relative;
+        top: 590px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .five-section .asset{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .five-section .asset img{
+        width: 500px;
+    }
+
+    
+    
+    .five-section .asset p{
+        position: absolute;
+        top: 273px;
+        left: 99px;
+        font-weight: 600;
+        font-size: 48px;
+        width: 437px;
+        height: 144px;
+        color: #ADACAC;
+    }
+    
+    .five-section .form{
+        padding-left: 70px;
+    }
+    
+    .five-section .form .bouton{
+        text-align: center;
+    }
+    
+    .five-section .form .bouton a{
+        text-decoration: none;
+    }
+    
+    .five-section .form .bouton a:first-child{
+        font-family: Poppins;
+        color: black;
+        background-color: #FFFFFF;
+        padding: 12px 30.06px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .bouton a:nth-child(2){
+        display: none;
+    }
+    
+    .five-section .form .formulaire form .nom{
+        margin-top: 59px;
+    }
+    
+    .five-section .form .formulaire form div label{
+        font-family: Poppins;
+        font-weight: 700;
+        margin-top: 15px;
+        font-size: 18px;
+        color:#242424;
+    }
+    
+    .five-section .form .formulaire form div input{
+        background-color: #d4d2d8b0;
+        width: 430px;
+        height: 50px;
+        border-radius: 20px;
+        border: transparent;
+    }
+    
+    .five-section .form .formulaire .acces{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: italic;
+        font-family: Poppins;
+        color: #5B5B5B;
+        width: 337px;
+        height: 81px;
+    }
+    
+    .five-section .form .formulaire .acces .fcfa{
+        font-weight: 600;
+    }
+    
+    .five-section .form .formulaire form .submit{
+        background-color: #6FDC8A;
+        border-radius: 20px;
+        border: transparent;
+        color: black;
+        padding: 12px 36px;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: Poppins;
+        margin-top: 66px;
+    }
+
+    .six-section{
+        margin-top: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /*border: 1px solid saddlebrown;*/
+        padding-left: 5%;
+    }
+
+    .six-section .nous .para-gras{
+        margin-top: 8px;
+        width: auto;
+        height: auto;
+    }
+    
+    .six-section .nous .simple{
+        margin-top: auto;
+        width: auto;
+    }
+
+    .six-section .image{
+        /*border: 1px solid darkred;*/
+        margin-top: -13.43px;
+        margin-bottom: 0;
+        height: 450px;
+    }
+    
+    .six-section .image .equipe{
+        position: relative;
+        left: 20px;
+        bottom: 400px;
+    }
+
+    .seven-section{
+        /*border: 1px solid crimson;
+        margin-top: 1980px;*/
+        display: none;
+    }
+
+
+    footer{
+        position: absolute;
+        padding: 0 10%;
+        left: 0;
+        right: 0;
+        top: 5400px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer .liens{
+        margin-top: 0px;
+    }
+
+    footer .apropos{
+        margin-top: -200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 653px){
+
+    body{
+        padding: 0 10px;
+        /*border: 10px solid firebrick;*/
+    }
+
+    header{
+        flex-direction: row;
+        padding: 0 10px!important;
+    }
+
+    .one-section{
+        margin-top: 60px;
+        padding: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .one-section .text .text-gras{
+        width: auto;
+        height: auto;
+        /*border: 1px solid coral;*/
+    }
+    
+    .one-section .text .text-normal{
+        margin-top: auto;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .one-section .text .button{
+        margin-top: auto;
+    }
+
+    .two-section{
+        margin-top: -150px;
+    }
+
+    .two-section .text-gras{
+        width: auto;
+        height: auto;
+    }
+
+    .two-section .etape{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }
+
+    .two-section .etape div{
+        width: 275px;
+        padding: 0 10px;
+    }
+
+    .two-section .etape div:nth-child(1){
+        margin-top: 0;
+    }
+
+    .two-section .etape div:nth-child(3){
+        margin-top: 50px;
+    }
+
+    /*.three-section{
+        display: none;
+    }*/
+
+    .three-section .one-flex .fonctions:nth-child(2){
+        margin-right: auto;
+    }
+
+    .three-section .one-flex .fonctions .fonction1{
+        width: 250px;
+        margin: 0 5px;
+    }
+
+    .four-section {
+        position: absolute;
+        left: 0px;
+        top: auto;
+        right: 0;
+        background: #234960;
+        margin-top: 20px;
+    }
+    
+    .four-section .haut{
+        width: auto;
+        margin-top: 88px;
+        margin-left: 10px;
+    }
+
+    .four-section .fonctions{
+        width: auto;
+        padding: 0 5%;
+        padding-bottom: 92px;
+    }
+
+    .five-section{
+        position: relative;
+        top: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .five-section .asset{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .five-section .asset img{
+        width: 400px;
+    }
+
+    
+    
+    .five-section .asset p{
+        position: absolute;
+        top: 203px;
+        left: 30px;
+        font-weight: 600;
+        font-size: 30px;
+        width: 337px;
+        height: auto;
+        /*border: 1px solid magenta;*/
+        color: #ADACAC;
+    }
+    
+    .five-section .form{
+        padding-left: 50px;
+    }
+    
+    .five-section .form .bouton{
+        text-align: center;
+    }
+    
+    .five-section .form .bouton a{
+        text-decoration: none;
+    }
+    
+    .five-section .form .bouton a:first-child{
+        font-family: Poppins;
+        color: black;
+        background-color: #FFFFFF;
+        padding: 12px 30.06px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .bouton a:nth-child(2){
+        display: none;
+    }
+    
+    .five-section .form .formulaire form .nom{
+        margin-top: 59px;
+    }
+    
+    .five-section .form .formulaire form div label{
+        font-family: Poppins;
+        font-weight: 700;
+        margin-top: 15px;
+        font-size: 18px;
+        color:#242424;
+    }
+    
+    .five-section .form .formulaire form div input{
+        background-color: #d4d2d8b0;
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        border: transparent;
+    }
+    
+    .five-section .form .formulaire .acces{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: italic;
+        font-family: Poppins;
+        color: #5B5B5B;
+        width: 337px;
+        height: 81px;
+    }
+    
+    .five-section .form .formulaire .acces .fcfa{
+        font-weight: 600;
+    }
+    
+    .five-section .form .formulaire form .submit{
+        background-color: #6FDC8A;
+        border-radius: 20px;
+        border: transparent;
+        color: black;
+        padding: 12px 36px;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: Poppins;
+        margin-top: 66px;
+    }
+
+    .six-section{
+        margin-top: 1050px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /*border: 1px solid saddlebrown;*/
+        padding-left: 5%;
+    }
+
+    .six-section .nous .para-gras{
+        margin-top: 8px;
+        width: auto;
+        height: auto;
+    }
+    
+    .six-section .nous .simple{
+        margin-top: auto;
+        width: auto;
+    }
+
+    .six-section .image{
+        /*border: 1px solid darkred;*/
+        margin-top: -13.43px;
+        margin-bottom: 0;
+        height: 450px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .six-section .image .sous{
+        width: 100%;
+    }
+    
+    .six-section .image .equipe{
+        position: relative;
+        left: 20px;
+        top: -300px;
+        bottom: 400px;
+        width: 90%;
+    }
+
+    .seven-section{
+        /*border: 1px solid crimson;
+        margin-top: 1980px;*/
+        display: none;
+    }
+
+
+    footer{
+        position: absolute;
+        padding: 0 5%;
+        left: 0;
+        right: 0;
+        top: 6000px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer .xenergy{
+        margin-top: 20px;
+    }
+
+    footer .liens{
+        margin-top: 0px;
+    }
+
+    footer .apropos{
+        margin-top: -200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 555px){
+
+    body{
+        padding: 0 5px;
+        /*border: 10px solid firebrick;*/
+    }
+
+    header{
+        flex-direction: row;
+        padding: 0 20px;
+    }
+
+    .one-section{
+        text-align: justify;
+        margin-top: 60px;
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .one-section .text .text-gras{
+        width: auto;
+        height: auto;
+        /*border: 1px solid coral;*/
+    }
+    
+    .one-section .text .text-normal{
+        margin-top: auto;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .one-section .text .button{
+        margin-top: auto;
+    }
+
+    .two-section{
+        margin-top: -150px;
+    }
+
+    .two-section .text-gras{
+        width: auto;
+        height: auto;
+        text-align: justify;
+    }
+
+    .two-section .etape{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }
+
+    .two-section .etape div{
+        width: 275px;
+        padding: 0 10px;
+    }
+
+    .two-section .etape div:nth-child(1){
+        margin-top: 0;
+    }
+
+    .two-section .etape div:nth-child(3){
+        margin-top: 50px;
+    }
+
+    /*.three-section{
+        display: none;
+    }*/
+
+    .three-section .one-flex .fonctions:nth-child(2){
+        margin-right: auto;
+    }
+
+    .three-section .one-flex .fonctions .fonction1{
+        width: 250px;
+        margin: 0 5px;
+    }
+
+    .four-section {
+        position: absolute;
+        left: 0px;
+        top: auto;
+        right: 0;
+        background: #234960;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    
+    .four-section .haut{
+        width: auto;
+        margin-top: 88px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .four-section .fonctions{
+        width: auto;
+        padding: 0 5%;
+        padding-bottom: 92px;
+    }
+
+    .five-section{
+        position: relative;
+        top: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .five-section .asset{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+
+    .five-section .asset img{
+        width: 100%;
+    }
+
+    
+    
+    .five-section .asset p{
+        position: absolute;
+        top: 203px;
+        left: 10px;
+        font-weight: 600;
+        font-size: 30px;
+        width: 300px;
+        height: auto;
+        /*border: 1px solid magenta;*/
+        color: #ADACAC;
+    }
+    
+    .five-section .form{
+        padding-left: 30px;
+    }
+    
+    .five-section .form .bouton{
+        text-align: center;
+        margin-right: 228px;
+        background-color: #7BE495;
+        border-radius: 20px;
+        padding: 10px 1px;
+        width: auto;
+    }
+    
+    .five-section .form .bouton a{
+        text-decoration: none;
+    }
+    
+    .five-section .form .bouton a:first-child{
+        font-family: Poppins;
+        color: black;
+        background-color: #FFFFFF;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+    
+    .five-section .form .bouton a:nth-child(2){
+        display: none;
+    }
+    
+    .five-section .form .formulaire form .nom{
+        margin-top: 59px;
+    }
+    
+    .five-section .form .formulaire form div label{
+        font-family: Poppins;
+        font-weight: 700;
+        margin-top: 15px;
+        font-size: 18px;
+        color:#242424;
+    }
+    
+    .five-section .form .formulaire form div input{
+        background-color: #d4d2d8b0;
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        border: transparent;
+    }
+    
+    .five-section .form .formulaire .acces{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: italic;
+        font-family: Poppins;
+        color: #5B5B5B;
+        width: 307px;
+        height: 81px;
+    }
+    
+    .five-section .form .formulaire .acces .fcfa{
+        font-weight: 600;
+    }
+    
+    .five-section .form .formulaire form .submit{
+        background-color: #6FDC8A;
+        border-radius: 20px;
+        border: transparent;
+        color: black;
+        padding: 12px 36px;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: Poppins;
+        margin-top: 66px;
+    }
+
+    .six-section{
+        margin-top: 1150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /*border: 1px solid saddlebrown;*/
+        padding-left: 5%;
+        text-align: justify;
+    }
+
+    .six-section .nous .para-gras{
+        margin-top: 8px;
+        width: auto;
+        height: auto;
+    }
+    
+    .six-section .nous .simple{
+        margin-top: auto;
+        width: auto;
+    }
+
+    .six-section .image{
+        /*border: 1px solid darkred;*/
+        margin-top: -13.43px;
+        margin-bottom: 0;
+        height: 450px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .six-section .image .sous{
+        display: none;
+    }
+    
+    .six-section .image .equipe{
+        position: relative;
+        left: 20px;
+        top: 20px;
+        bottom: 400px;
+        width: 90%;
+    }
+
+    .seven-section{
+        /*border: 1px solid crimson;
+        margin-top: 1980px;*/
+        display: none;
+    }
+
+
+    footer{
+        position: absolute;
+        padding: 0 5%;
+        left: 0;
+        right: 0;
+        top: 6000px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer .xenergy{
+        margin-top: 20px;
+    }
+
+    footer .liens{
+        margin-top: 0px;
+    }
+
+    footer .apropos{
+        margin-top: -200px;
+    }
+
+}
